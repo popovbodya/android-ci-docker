@@ -2,6 +2,7 @@ FROM openjdk:8-jdk
 
 MAINTAINER Popov Bogdan <popovbodya@gmail.com>
 
+ENV ANDROID_HOME "/android-sdk"
 ENV LINUX_SDK_VERSION "4333796"
 
 RUN apt-get --quiet update --yes && \
